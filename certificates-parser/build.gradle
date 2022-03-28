@@ -1,0 +1,12 @@
+apply plugin: 'org.springframework.boot'
+dependencies {
+    api project(':service')
+    api project(':common')
+}
+bootJar {
+    enabled = true
+    mainClassName = 'com.epam.esm.ParserApp'
+}
+jar {
+    enabled = false
+}

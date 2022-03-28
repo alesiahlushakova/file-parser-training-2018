@@ -1,0 +1,4 @@
+dependencies {
+    api 'org.apache.commons:commons-lang3:3.10'
+    api 'commons-io:commons-io:2.6'
+}
